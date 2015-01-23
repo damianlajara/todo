@@ -1,2 +1,4 @@
 <h1>Hey! Welcome to my simple app!</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
+<!-- render the text partial (which is, the _text.html.erb file). DO NOT need the underscore when using render, since rails will know it's a partial by default -->
+<%= render "text" %> <!-- this is embedded ruby. Need the tags so rails know ruby rail code is going inside it -->
