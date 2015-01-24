@@ -48,3 +48,5 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem "font-awesome-rails"
 # making forms easier, since it's a little complicated on rails
 gem 'simple_form'
+# flexible form authentication
+gem 'devise'
