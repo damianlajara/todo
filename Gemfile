@@ -50,3 +50,4 @@ gem "font-awesome-rails"
 gem 'simple_form'
 # flexible form authentication
 gem 'devise'
+gem 'auto_html'
