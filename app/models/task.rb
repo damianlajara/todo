@@ -1,6 +1,8 @@
 class Task < ActiveRecord::Base
   belongs_to :user
 
+  validates :user_id, presence: true
+  validates :content, presence: true
   # Using the auto_html gem to transform links to it's original resource
   # Ex: If user enters a youtube link, it should show the youtube video
   auto_html_for :content do
